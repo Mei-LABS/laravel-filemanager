@@ -1,7 +1,7 @@
 var lfm_route = location.origin + location.pathname;
 var show_list;
-var sort_type = 'alphabetic';
-var sort_order = 'asc';
+var sort_type = 'time';
+var sort_order = 'desc';
 var multi_selection_enabled = false;
 var selected = [];
 var items = [];
