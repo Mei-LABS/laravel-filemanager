@@ -127,11 +127,13 @@ class LfmPath
 
     public function delete()
     {
-        if ($this->isDirectory()) {
-            return $this->storage->deleteDirectory();
-        } else {
-            return $this->storage->delete();
-        }
+        // if ($this->isDirectory()) {
+        //     return $this->storage->deleteDirectory();
+        // } else {
+        //     return $this->storage->delete();
+        // }
+        $this->storage->deleteDirectory();
+        $this->storage->delete();
     }
 
     /**
