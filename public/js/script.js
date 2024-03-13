@@ -590,9 +590,9 @@ function download(items) {
   });
 }
 
-function open(item) {
-  goTo(item.url);
-}
+// function open(item) {
+//   goTo(item.url);
+// }
 
 function preview(items) {
   var carousel = $('#carouselTemplate').clone().attr('id', 'previewCarousel').removeClass('d-none');
